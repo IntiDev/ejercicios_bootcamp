@@ -1,13 +1,19 @@
-console.log("Bienvenido");
-
 var btn = document.getElementById("menu");
-var menu = document.getElementById("opcs-menu");
-
-
 
 function mostrarMenu() {
-  //console.log("menu");
-  menu.classList.toggle("mostrarMenu");
+  var menu = document.getElementById("opcs-menu");
+  var propCSS = window.getComputedStyle(menu).getPropertyValue("display");
+//  console.log(propCSS);
+
+  if(menu.style.display  == "none" || menu.style.display  == ""){
+    //console.log("mostrar");
+    //window.getComputedStyle(menu,"display").setPropertyValue("block");
+    menu.style.display = "block";
+  }
+  else{
+    //console.log("ocultar");
+    menu.style.display = "none";
+  }
 }
 
 btn.addEventListener("click", mostrarMenu);
