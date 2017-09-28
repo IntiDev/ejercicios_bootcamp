@@ -1,0 +1,40 @@
+body{
+  background-color: lightgrey;
+  font-family: verdana;
+}
+
+button{
+  width: 80px;
+}
+
+hr{
+  border: solid black 2px;
+}
+
+nav{
+  display: none;
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  width: 100%;
+  font-size: 25px;
+}
+
+li:hover{
+  background-color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+.mostrarMenu{
+ display: block;
+}
