@@ -1,5 +1,4 @@
 body{
-  background-color: lightgrey;
   font-family: verdana;
 }
 
@@ -12,7 +11,6 @@ hr{
 }
 
 nav{
-  display: none;
   width: 60%;
   margin-left: 20%;
   text-align: center;
@@ -28,9 +26,17 @@ li{
 }
 
 li:hover{
-  background-color: white;
+  background-color: lightgrey;
 }
 
 a{
   text-decoration: none;
+}
+
+a:hover{
+  color: white;
+}
+
+.noActive{
+  display: none;
 }
