@@ -1,42 +1,46 @@
-body{
+body {
   font-family: verdana;
 }
 
-button{
+button {
   width: 80px;
 }
 
-hr{
+hr {
   border: solid black 2px;
 }
 
-nav{
+nav {
   width: 60%;
   margin-left: 20%;
   text-align: center;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-li{
+li {
   width: 100%;
   font-size: 25px;
 }
 
-li:hover{
+li:hover {
   background-color: lightgrey;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   color: white;
 }
 
-.noActive{
+.enabled-menu {
+  display: block;
+}
+
+.disabled-menu {
   display: none;
 }
